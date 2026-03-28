@@ -10,10 +10,13 @@
 - Hephaestanite (Raw) shortened to Heph (Raw)
 
 > With thanks to [SaltEMike](https://www.twitch.tv/saltemike) for the joking idea that I ran with... [Check out his video here](https://youtu.be/K5yBt55NljE)
-
 >[!NOTE]
-> Based once again on the wonderful Language Pack idea by [ExoAE](https://github.com/ExoAE/ScCompLangPack/tree/main). 
+> Based once again on the wonderful Language Pack idea by [ExoAE](https://github.com/ExoAE/ScCompLangPack/tree/main).
+> [!WARNING]
+> You will need to maintain this file in order to keep strings up-to-date with each new build/patch that modifies strings. I have an automation setup to push new versions live but please keep in mind that I am UK based and PTU builds normally go up very late UK time, so there may be a few hours delay
 
+# Unfixable Problems
+- Rayari "Need More Research Data" is a generic description/title re-used for many different contracts, most not awarding blueprints. #5
 # Installation
 1. Download the latest release on the right hand side
 2. Extract the ZIP file.
@@ -32,11 +35,6 @@ StarCitizen/
 ```
 > [!WARNING]
 > This is done by find/replace operations based on extracted game data and it would be an almight task to manually check each contract personally, if you find any errors please let me know via the Issues tab. 
-
-> [!WARNING]
-> You will need to maintain this file in order to keep strings up-to-date with each new build/patch that modifies strings. I have an automation setup to push new versions live but please keep in mind that I am UK based and PTU builds normally go up very late UK time, so there may be a few hours delay
-## Unfixable Problems
-- Rayari "Need More Research Data" is a generic description/title re-used for many different contracts, most not awarding blueprints. #5
 
 > [!IMPORTANT]
 > **Made by the Community** - This is an unofficial Star Citizen fan project, not affiliated with the Cloud Imperium group of companies. All content in this repository not authored by its host or users are property of their respective owners.
