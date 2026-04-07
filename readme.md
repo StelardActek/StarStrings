@@ -29,6 +29,7 @@ If you want to use bits from different translation packs you've found, check out
 # Known Constraints/Unfixable Problems
 - Because of how some contracts share strings, there's some 'odd' looking behaviour that I've tried to show cleanly with `*` in titles marked with BP and then caveat text in the description. (I'm trying to keep this to an automated find/conditional replace operation so I don't need to manually maintain)
 - Some contracts like Black Box recovery literally share the same assigned strings across mission givers
+  - This may just be a quirk of the mission generator and how it's pulled out, a much more involved fix than just the string replacer
 - Rayari "Need More Research Data" is a generic description/title re-used for many different contracts, most not awarding blueprints.
   - The title shows [BP] but I have added a caveat that it's for Yormandi Eyes Only
 # Installation
